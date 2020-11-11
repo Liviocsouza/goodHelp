@@ -8,3 +8,9 @@ Desenvolver uma plataforma para conectar pessoas que estão passando por alguma 
 
 ## Modelo Canvas
 ![Canvas](https://github.com/Liviocsouza/goodHelp/blob/main/Canvas.png?raw=true "Canvas")
+
+## Equipe
+
+- Josenildo lopes **(jls2)**
+- Livio Cavalcanti de souza **(lcs9)**
+- Yves Lawrrence Silva de Andrade Cavalcante **(ylsa)**

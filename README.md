@@ -14,3 +14,7 @@ Desenvolver uma plataforma para conectar pessoas que estão passando por alguma 
 - Josenildo lopes **(jls2)**
 - Livio Cavalcanti de souza **(lcs9)**
 - Yves Lawrrence Silva de Andrade Cavalcante **(ylsa)**
+
+## Artefatos
+
+[Mockup da plataforma](https://www.figma.com/proto/nRM7YaXM50WeSb4Jz41oAm/Mockup?node-id=4%3A0&scaling=min-zoom)

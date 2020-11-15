@@ -13,6 +13,8 @@ app.get('/',(req, res)=> {
 const rotas = require('./rotas')
 app.use('/api', rotas)
 
+app.use(express.static(__dirname + '../back-end/front'))
+
 
 const port = 3001
 

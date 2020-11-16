@@ -1,6 +1,6 @@
 import React, { Component} from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
-import Main from '../pages/main'
+import Main from '../pages/Main'
 
 class Router extends Component{
     render(){

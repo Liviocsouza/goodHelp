@@ -5,7 +5,7 @@ import logo from './logo.png'
 import {Header, HeaderLista, Container, ButtomHead, ContainerMain} from '../../componentes/ContainersHead'
 import Banner from './Banner'
 
-class Main extends Component {
+class Main extends Component{
     render(){
         return(
             <ContainerMain>

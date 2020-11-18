@@ -1,6 +1,7 @@
 import React from 'react'
-import StyledBackGroungIMG from './styles'
+import {StyledBackGroungIMG, StyledOpacidade} from './styles'
 
 const Banner = ({children}) => <StyledBackGroungIMG>{children}</StyledBackGroungIMG>
+const Opacidade =({children}) => <StyledOpacidade>{children}</StyledOpacidade>
 
-export default Banner
+export  {Banner, Opacidade}

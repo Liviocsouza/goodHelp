@@ -4,6 +4,9 @@ import styled from 'styled-components'
 const StyleContainerMain = styled.div`
     width:100%;
     align-items:center;
+    height: 2000px;
+
+    
 `
 const StyledContainer = styled.div`
     background-color: #CAC9C7;

@@ -1,25 +1,40 @@
 import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 
-import logo from './logo.png'
-import { Header, SignIn, HeaderLista, Container, ButtomHead, ContainerMain, Welcome, ContainerData, ContainerSignIn} from '../../componentes/ContainersCadastro'
+import logo from './logogoodhelp.png'
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead } from '../../componentes/ContainersCadastro'
 
 class SignInn extends Component{
     render() {
         return(
             <ContainerMain>
                 <Container>
-                <img src =  {logo} width = "248" height = "177"/>
+                <img alt = "Logo" src =  {logo} width = "248" height = "177"/>
                 <ContainerSignIn>
                     <SignIn>
-                    <li><Link to = "/">Cadastre-se</Link></li>
+                    <Link to = "/">Cadastre-se</Link>
                     </SignIn>
                     <Welcome>
-                    <li><Link to = "/">Bem vindo! Por favor entre com suas credenciais.</Link></li>
+                    <Link to = "/">Bem vindo! Por favor entre com suas credenciais.</Link>
                     </Welcome>
-                    <ContainerData>
-                        <input type = "text">Nome completo</input>
-                    </ContainerData>
+                    <ContainerInfo>
+                        "Nome completo"
+                    </ContainerInfo>
+                    <ContainerInfo>
+                        "CPF"
+                    </ContainerInfo>
+                    <ContainerInfo>
+                        "(DDD)Celular ou Email"
+                    </ContainerInfo>
+                    <ContainerInfo>
+                        "Senha"
+                    </ContainerInfo>
+                    <ContainerInfo>
+                        "Repetir senha"
+                    </ContainerInfo>
+                    <ButtomHead>
+                        Cadastre-se
+                    </ButtomHead>
                 </ContainerSignIn>
                 </Container>
             </ContainerMain>

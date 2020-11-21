@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 
 import logo from './logogoodhelp.png'
-import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead } from '../../componentes/ContainersCadastro'
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText, HeaderLista } from '../../componentes/ContainersCadastro'
 
 class SignInn extends Component{
     render() {
@@ -18,23 +18,30 @@ class SignInn extends Component{
                     <Link to = "/">Bem vindo! Por favor entre com suas credenciais.</Link>
                     </Welcome>
                     <ContainerInfo>
-                        "Nome completo"
+                        Nome completo
                     </ContainerInfo>
                     <ContainerInfo>
-                        "CPF"
+                        CPF
                     </ContainerInfo>
                     <ContainerInfo>
-                        "(DDD)Celular ou Email"
+                        (DDD)Celular ou Email
                     </ContainerInfo>
                     <ContainerInfo>
-                        "Senha"
+                        Senha
                     </ContainerInfo>
                     <ContainerInfo>
-                        "Repetir senha"
+                        Repetir senha
                     </ContainerInfo>
+                    <TermBox><TermText>Aceite os Termos de Políticca e Privacidade</TermText></TermBox>  
                     <ButtomHead>
                         Cadastre-se
                     </ButtomHead>
+                    <HeaderLista>
+                        Ou logue por:
+                        Facebook
+                        LinkedIn
+                        Google
+                    </HeaderLista>
                 </ContainerSignIn>
                 </Container>
             </ContainerMain>

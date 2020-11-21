@@ -111,5 +111,32 @@ const StyledLista = styled.ul  `
         color:black;
     }
 `
+const StyledTermBox = styled.div`
+    width: 14px;
+    height: 13px;
+    margin: 40px;
+    margin-left: 220px;
+    padding: 0x 0px;
 
-export { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLista, StyledWelcome, StyledContainerInfo, StyledContainerSignIn } 
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+`
+
+const StyledTermText = styled.ul`
+    width: 366px;
+    height: 10px;
+    left: 511px;
+    margin-top: -4px;
+    margin-left: -15px;
+
+    font-family: Electrolize;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(0, 0, 0, 0.61);
+`
+
+export { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLista, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledTermBox, StyledTermText } 

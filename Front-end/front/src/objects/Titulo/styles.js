@@ -6,11 +6,11 @@ const StyledTitulo = styled.h1`
     color: ${({color}) => color};
     position: absolute;
     width: 711px;
-    height: 90px;
+    /* height:200px; */
     left: 100px;
-    top: 80px;
-    font-weight: 600;
-    font-size: 50px;
+    top: ${({top}) => top};
+    /* font-weight: 600; */
+    font-size: ${({size}) => size};
     line-height: 45px;
 
 `

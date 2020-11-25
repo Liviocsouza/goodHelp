@@ -1,7 +1,10 @@
 import React, {Component} from 'react'
-import {StyledContainer} from './styles'
+import {StyledContainer, StyledItem} from './styles'
+import Titulo from '../../../objects/Titulo'
 
-const Container = ({children}) => <StyledContainer>{children}</StyledContainer>
+const Container = props => (<StyledContainer {...props} >{props.children}</StyledContainer>)
+const Item = props => (<StyledItem {...props}>{props.children}</StyledItem>)
+
 
 class ConsultaList extends Component{
     constructor(props){
@@ -13,12 +16,25 @@ class ConsultaList extends Component{
         return(
             <Container>
                 {
+                    
                     this.state.consultas.map(c => {
                         return(
-                            <div>
-                                
-                            </div>
+                            <Item>
+                                <div style= {{display:"flex"}}>
+                                <img src = {c.imagem}/>
+                                    <div>
+                                    <h2>{c.nome}  {c.avaliacao}</h2> 
+                                    
+                                    <h2>Especialidades:</h2>
+                                    <p>{c.especialidades}</p>
+                                    </div>
+                                  
+                                </div>    
 
+                                
+                                
+                            </Item>
+ 
                         )
 
                     })
@@ -33,4 +49,4 @@ class ConsultaList extends Component{
 
 }
 
-export { Header, HeaderLista, Container, ButtomHead, ContainerMain}
+export default  ConsultaList

@@ -1,15 +1,21 @@
-
 import styled from 'styled-components'
 
-const StyleContainer = styled.div`
+const StyledContainer = styled.div`
+    width:84%;
+    margin-left:-60px;
     display: grid;
-    grid-template-columns: auto auto;
-    background-color: #2196F3;
+    grid-template-columns: auto;
+    background-color: white;
     padding: 10px;
+    border-radius: 10px;
 
     
+`
+const StyledItem = styled.div`
+    float:${({float}) => float};
+
 `
 
 
 
-export { StyleContainerMain } 
+export { StyledContainer, StyledItem } 

@@ -3,13 +3,17 @@ import styled from 'styled-components'
 
 const StyledInput = styled.input`
     position: absolute;
-    width: 771px;
+    //width: 771px;
+    width: ${({width}) => width};
     height: 80px;
-    left: 100px;
-    top: 580px;
+    left:${({left}) => left};
+    top: ${({top}) => top};
+   // left: 100px;
+    //top: 580px;
     font-size:38px;
     background: #FFFFFF;
     border-radius: 0px 20px;
+    
 `
 
 const StyledButao = styled.button`

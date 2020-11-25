@@ -4,7 +4,9 @@ import styled from 'styled-components'
 const StyleContainerMain = styled.div`
     width:100%;
     align-items:center;
-    height: 2000px;
+    flex-direction:column;
+    height: 1200px;
+    margin-top:-7px;
 
     
 `
@@ -12,7 +14,8 @@ const StyledContainer = styled.div`
     background-color: #CAC9C7;
     padding-right: 30px;
     padding-left : 30px;
-    width:100%;
+    width:1280px;
+    
     align-items:center;
     justify-content: center;
     display:flex;

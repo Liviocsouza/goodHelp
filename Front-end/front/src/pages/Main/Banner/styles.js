@@ -4,10 +4,10 @@ import imagem from './banner.jpg'
 
 const StyledBackGroungIMG = styled.div`
     background-image:url(${imagem});
-    width: 1500px;
+    width: 1350px;
     height: 660px;
     align-items:center;
-    position:absolute;
+    /* position:absolute; */
 
 
 `

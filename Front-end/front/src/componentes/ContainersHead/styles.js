@@ -14,8 +14,8 @@ const StyledContainer = styled.div`
     background-color: #CAC9C7;
     padding-right: 30px;
     padding-left : 30px;
+    top: ${({top}) => top}; 
     width:1280px;
-    
     align-items:center;
     justify-content: center;
     display:flex;

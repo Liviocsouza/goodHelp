@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import Link from  '../../objects/Link'
-
+// import Link from  '../../objects/Link'
+import {Link} from 'react-router-dom'
 import logo from './logogoodhelp.png'
 import {Header, HeaderLista, Container, ButtomHead, ContainerMain} from '../../componentes/ContainersHead'
-<<<<<<< HEAD
 import {Banner, Opacidade} from './Banner'
 import Titulo from '../../objects/Titulo'
 import SubTitulo from '../../objects/SubTitulo'
@@ -11,9 +10,6 @@ import {ButaoBusca, Input} from '../../objects/Input'
 import {ContainerPrincipal , ContainerRight, ContainerLeft}from '../../componentes/ContainerInfo'
 import {BordaLista } from '../../objects/Borda'
 import Footer from './Footer'
-=======
-/*import Banner from './Banner'*/
->>>>>>> 8a853d8c39e154cf91a365db6210ef9f300c2487
 
 class Main extends Component {
     constructor(props){
@@ -32,15 +28,14 @@ class Main extends Component {
                     <Header>
                         <img alt = "Logo" src = {logo} width = "174" height = "124"/>
                         <HeaderLista>
-                            <li><Link to = "/">Fale conosco</Link></li>
-                            <li><Link to = "/">Conheça nossos(as) especialistas</Link></li>
+                            <li><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Fale conosco</Link></li>
+                            <li><Link to = "/" style = {{textDecoration: 'none',color: "black"}}>Conheça nossos(as) especialistas</Link></li>
                             |
-                            <li><Link to = "/"> Entre</Link></li>
-                            <ButtomHead>Cadraste-se</ButtomHead>
+                            <li><Link to = "/" style = {{textDecoration: 'none',color: "black"}}> Entre</Link></li>
+                            <ButtomHead to = "/cadastro"><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Cadraste-se</Link></ButtomHead>
                         </HeaderLista>
                     </Header>
                 </Container>
-<<<<<<< HEAD
                 <div>
                 <Banner>
                     <Opacidade>
@@ -52,7 +47,11 @@ class Main extends Component {
                         <Input placeholder = "Descreva um motivo" 
                         value = {this.state.nome} 
                         onChange={this.buscarBanco}
-                        type ="text"/>
+                        type ="text"
+                        width = "771px"
+                        top = "580px"
+                        left = "100px"
+                        />
                         <ButaoBusca top = "581px" left = "575px">Encontrar profissional</ButaoBusca>
                     </Opacidade>                
                 </Banner>
@@ -101,9 +100,6 @@ class Main extends Component {
                
 
                 
-=======
-                {/*<Banner/>*/}
->>>>>>> 8a853d8c39e154cf91a365db6210ef9f300c2487
 
 
             </ContainerMain>

@@ -25,6 +25,17 @@ const StyledContainerSignIn = styled.div`
     background: #B9B6B6;
 `
 
+const StyledContainerLoginIn = styled.div`
+    position: absolute;
+    width: 770px;
+    height: 625px;
+    left: 298px;
+    top: 214px;
+    margin-left: auto;
+    margin-rigth: auto;
+    background: #B9B6B6;
+`
+
 const StyledContainerInfo = styled.div`
     width: 577px;
     height: 74px;
@@ -95,22 +106,43 @@ const StyledButtom = styled.button`
     background-color:#FF7A00;
     margin-left: 318px;
     margin-rigth: 280px;
+    margin-bottom: 50px;
 
 `
-const StyledLista = styled.ul  `
+const StyledLogin = styled.ul  `
     overflow-x:auto;
     padding-right: 15px;
+    padding-bottom: 15px;
     width:80%;
     justify-content:space-around;
     li{
         list-style :none;
-        margin:50px;
+        margin:200px;
         display: inline-block;
         font-size:20px;
         font-family:Offside;
         color:black;
     }
+    
 `
+
+const StyledSocialLogin = styled.ul  `
+    overflow-x:auto;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width:80%;
+    justify-content:space-around;
+    color: #FF7A00;
+    li{
+        list-style :none;
+        margin:200px;
+        display: inline-block;
+        font-size:20px;
+        font-family:Offside;
+        color: orange;
+    }
+`
+
 const StyledTermBox = styled.div`
     width: 14px;
     height: 13px;
@@ -139,4 +171,4 @@ const StyledTermText = styled.ul`
     color: rgba(0, 0, 0, 0.61);
 `
 
-export { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLista, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledTermBox, StyledTermText } 
+export { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLogin, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledContainerLoginIn, StyledTermBox, StyledTermText, StyledSocialLogin } 

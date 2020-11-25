@@ -2,48 +2,39 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 
 import logo from './logogoodhelp.png'
-import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerLoginIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
 
-class SignUp extends Component{
+class LoginIn extends Component{
     render() {
         return(
             <ContainerMain>
                 <Container>
                 <img alt = "Logo" src =  {logo} width = "248" height = "177"/>
-                <ContainerSignIn>
+                <ContainerLoginIn>
                     <SignIn>
-                    <Link to = "/">Cadastre-se</Link>
+                    <Link to = "/">Entre</Link>
                     </SignIn>
                     <Welcome>
                     <Link to = "/">Bem vindo! Por favor entre com suas credenciais.</Link>
-                    </Welcome>
-                    <ContainerInfo>
-                        Nome completo
-                    </ContainerInfo>
-                    <ContainerInfo>
-                        CPF
-                    </ContainerInfo>
+                    </Welcome>                    
                     <ContainerInfo>
                         (DDD)Celular ou Email
                     </ContainerInfo>
                     <ContainerInfo>
                         Senha
-                    </ContainerInfo>
-                    <ContainerInfo>
-                        Repetir senha
-                    </ContainerInfo>
+                    </ContainerInfo>                   
                     <TermBox><TermText>Aceite os Termos de Políticca e Privacidade</TermText></TermBox>  
                     <ButtomHead>
-                        Cadastre-se
+                        Entrar
                     </ButtomHead>
                     <Login>
-                        Ou logue por: <SocialLogin> Facebook | LikedIn | Google </SocialLogin>   
+                        Ou logue por:<SocialLogin>Facebook      LikedIn      Google</SocialLogin>                        
                     </Login>
-                </ContainerSignIn>
+                </ContainerLoginIn>
                 </Container>
             </ContainerMain>
         )
     }
 }
 
-export default SignUp
+export default LoginIn

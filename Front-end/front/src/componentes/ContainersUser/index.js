@@ -1,15 +1,17 @@
 import React from 'react'
-import { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLista, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledTermBox, StyledTermText }  from './styles'
+import { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLogin, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledContainerLoginIn, StyledTermBox, StyledTermText, StyledSocialLogin }   from './styles'
 
 const Container = ({children}) => <StyledContainer>{children}</StyledContainer>
 const SignIn = ({children}) => <StyledSignIn>{children}</StyledSignIn>
 const ButtomHead = ({children}) => <StyledButtom>{children}</StyledButtom>
 const ContainerMain = ({children}) => <StyledContainerMain>{children}</StyledContainerMain>
-const HeaderLista = ({children}) => <StyledLista>{children}</StyledLista>
+const Login = ({children}) => <StyledLogin>{children}</StyledLogin>
+const SocialLogin = ({children}) => <StyledSocialLogin>{children}</StyledSocialLogin>
 const Welcome = ({children}) => <StyledWelcome>{children}</StyledWelcome>
 const ContainerInfo = ({children}) => <StyledContainerInfo>{children}</StyledContainerInfo>
 const ContainerSignIn = ({children}) => <StyledContainerSignIn>{children}</StyledContainerSignIn>
+const ContainerLoginIn = ({children}) => <StyledContainerLoginIn>{children}</StyledContainerLoginIn>
 const TermBox = ({children}) => <StyledTermBox>{children}</StyledTermBox>
 const TermText = ({children}) => <StyledTermText>{children}</StyledTermText>
 
-export { SignIn, HeaderLista, Container, ButtomHead, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, TermBox, TermText }
+export { SignIn, Login, SocialLogin, Container, ButtomHead, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ContainerLoginIn, TermBox, TermText }

@@ -19,15 +19,31 @@
 |Definição do escopo                                                 | Equipe      |
 |Criação mockup no figma                     			                   | Yves        |
 |Atualização do README                       			                   | Livio       |
+|Definir APIs/ferramentas e estudá-las                               | Equipe      |
 
 #### O que não foi feito
 |			Ação | Responsável|
 |:---------------------------|:----------:|
+|Montagem do ambiente | Equipe|
 |Em andamento |
 #### Planejamento para a próxima iteração
 |			 Ação | Responsável   |
 |:----------------------------|:-------------:|
-|Em andamento|
+|Montagem do ambiente| equipe|
+|Criação de todas as telas do front-end| equipe|
+|Criação do back-end |equipe |
+|Criação do banco de dados | equipe|
+|Documentar estrutura do banco de dados |
+|Documentar todas as ferramentas e bibliotecas utilizadas|
+
+
 
 #### Lições aprendidas
-Em andamento
+- Mensurar melhor o tempo de cada atividade
+- Documentar os erros encontrados e problemas encontrados 
+- Melhor utilização de ferramentas de MVP (Figma)
+
+### Problemas encontrados
+- Curva de aprendizado para utilização do figma
+- Muito tempo só estudando as ferramentas
+

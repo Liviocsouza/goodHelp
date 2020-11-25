@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 
 import logo from './logogoodhelp.png'
-import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerLoginIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerLoginIn, ButtomHead, TermBox, TermText, } from '../../componentes/ContainersUser'
 
 class LoginIn extends Component{
     render() {
@@ -27,9 +27,6 @@ class LoginIn extends Component{
                     <ButtomHead>
                         Entrar
                     </ButtomHead>
-                    <Login>
-                        Ou logue por:<SocialLogin>Facebook      LikedIn      Google</SocialLogin>                        
-                    </Login>
                 </ContainerLoginIn>
                 </Container>
             </ContainerMain>

@@ -2,30 +2,11 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 
 import logo from './logogoodhelp.png'
-import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText,  } from '../../componentes/ContainersUser'
 
 class SignUp extends Component{
     render() {
         return(
-<<<<<<< HEAD
-            <div>Tela de login</div>
-            // <ContainerMain>
-            //     <Container>
-            //     <img src =  {logo} width = "248" height = "177"/>
-            //     <ContainerSignIn>
-            //         <SignIn>
-            //         <li><Link to = "/">Cadastre-se</Link></li>
-            //         </SignIn>
-            //         <Welcome>
-            //         <li><Link to = "/">Bem vindo! Por favor entre com suas credenciais.</Link></li>
-            //         </Welcome>
-            //         <ContainerData>
-            //             <input type = "text">Nome completo</input>
-            //         </ContainerData>
-            //     </ContainerSignIn>
-            //     </Container>
-            // </ContainerMain>
-=======
             <ContainerMain>
                 <Container>
                 <img alt = "Logo" src =  {logo} width = "248" height = "177"/>
@@ -55,13 +36,9 @@ class SignUp extends Component{
                     <ButtomHead>
                         Cadastre-se
                     </ButtomHead>
-                    <Login>
-                        Ou logue por: <SocialLogin> Facebook | LikedIn | Google </SocialLogin>   
-                    </Login>
                 </ContainerSignIn>
                 </Container>
             </ContainerMain>
->>>>>>> 8a853d8c39e154cf91a365db6210ef9f300c2487
         )
     }
 }

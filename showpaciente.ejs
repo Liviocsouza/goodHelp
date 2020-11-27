@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BancoGoodHelp</title>
+</head>
+<body>
+
+<h2>Registros<h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>NumeroPaciente</td>
+                <td>Idade</td>
+                <td>Sexo</td>
+                <td>Telefone</td>
+                <td>Email</td>
+                <td>Senha</td>
+                <td>Motivo</td>
+                
+            </tr>
+        </thead>
+        <tbody>
+        <% data.forEach(function(details) { %>
+            <tr>
+                <td><%= details.name %></td>
+                <td><%= details.NumeroPaciente %></td>
+                <td><%= details.idade %></td>
+                <td><%= details.sexo %></td>
+                <td><%= details.telefone %></td>
+                <td><%= details.email %></td>
+                <td><%= details.senha %></td>
+                <td><%= details.motivo %></td>
+                <td><a href="/edit/<%= details._id%>">Editar</a> - <a href="/delete/<%= details._id%>">Deletar</a></td>
+            </tr>
+            <% }) %>
+        </tbody>
+        <button><a href="/">Voltar</a></button>
+</body>
+</html>

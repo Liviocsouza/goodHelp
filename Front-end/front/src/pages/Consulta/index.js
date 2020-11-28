@@ -30,7 +30,7 @@ class Consulta extends Component {
                             <li><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Fale conosco</Link></li>
                             <li><Link to = "/consulta" style = {{textDecoration: 'none',color: "black"}}>Conheça nossos(as) especialistas</Link></li>
                             |
-                            <li><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}> Entre</Link></li>
+                            <li><Link to = "/Entrar" style = {{textDecoration: 'none',color: "black"}}> Entre</Link></li>
                             <ButtomHead ><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Cadraste-se</Link></ButtomHead>
                         </HeaderLista>
                     </Header>

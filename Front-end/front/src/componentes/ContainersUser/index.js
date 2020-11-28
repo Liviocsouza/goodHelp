@@ -3,7 +3,7 @@ import { StyledSignIn, StyledContainer,StyledContainerInfo2, StyledButtom,Styled
 
 const Container = ({children}) => <StyledContainer>{children}</StyledContainer>
 const SignIn = ({children}) => <StyledSignIn>{children}</StyledSignIn>
-const ButtomHead = ({children}) => <StyledButtom>{children}</StyledButtom>
+const ButtomHead = props => (<StyledButtom {...props}>{props.children}</StyledButtom>)
 const ContainerMain = ({children}) => <StyledContainerMain>{children}</StyledContainerMain>
 const Login = ({children}) => <StyledLogin>{children}</StyledLogin>
 const SocialLogin = ({children}) => <StyledSocialLogin>{children}</StyledSocialLogin>

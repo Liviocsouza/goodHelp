@@ -2,11 +2,7 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 import { Input} from '../../objects/Input'
 import logo from './logogoodhelp.png'
-<<<<<<< HEAD
 import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo2,ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
-=======
-import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText,  } from '../../componentes/ContainersUser'
->>>>>>> f044a176cc3d4c08c9bcb23732169b332e5aa719
 
 class SignUp extends Component{
     constructor(props){
@@ -28,7 +24,7 @@ class SignUp extends Component{
         this.changSenha = (evento) =>{
             this.setState({senha: evento.target.value})
         };
-        this.changNome = (evento) =>{
+        this.changRepetirSenha = (evento) =>{
             this.setState({senha: evento.target.value})
         };
     }
@@ -66,14 +62,22 @@ class SignUp extends Component{
                     onChange={this.changSenha}
                     type ="password"
                     />
+
+                    <ContainerInfo2 
+                    placeholder = "Repetir Senha" 
+                    value = {this.state.repetirSenha} 
+                    onChange={this.changRepetirSenha}
+                    type ="password"
+                    />
                     
-                    <ContainerInfo>
-                        Repetir senha
-                    </ContainerInfo>
-                    <TermBox><TermText>Aceite os Termos de Políticca e Privacidade</TermText></TermBox>  
+                   
+                    <TermBox><TermText>Aceite os Termos de Política e Privacidade</TermText></TermBox>  
                     <ButtomHead>
                         Cadastre-se
                     </ButtomHead>
+                    <Login>
+                        Ou logue por: <SocialLogin> Facebook | LikedIn | Google </SocialLogin>   
+                    </Login>
                 </ContainerSignIn>
                 </Container>
             </ContainerMain>

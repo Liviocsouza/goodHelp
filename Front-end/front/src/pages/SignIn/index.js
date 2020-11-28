@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import Link from  '../../objects/Link'
 import { Input} from '../../objects/Input'
 import logo from './logogoodhelp.png'
+<<<<<<< HEAD
 import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo2,ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText, Login, SocialLogin } from '../../componentes/ContainersUser'
+=======
+import {  SignIn, Container, ContainerMain, Welcome, ContainerInfo, ContainerSignIn, ButtomHead, TermBox, TermText,  } from '../../componentes/ContainersUser'
+>>>>>>> f044a176cc3d4c08c9bcb23732169b332e5aa719
 
 class SignUp extends Component{
     constructor(props){
@@ -70,9 +74,6 @@ class SignUp extends Component{
                     <ButtomHead>
                         Cadastre-se
                     </ButtomHead>
-                    <Login>
-                        Ou logue por: <SocialLogin> Facebook | LikedIn | Google </SocialLogin>   
-                    </Login>
                 </ContainerSignIn>
                 </Container>
             </ContainerMain>

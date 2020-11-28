@@ -9,6 +9,11 @@ Desenvolver uma plataforma para conectar pessoas que estão passando por alguma 
 ## Modelo Canvas
 ![Canvas](https://github.com/Liviocsouza/goodHelp/blob/main/Canvas.png?raw=true "Canvas")
 
+## Tabelas
+
+<img src="https://github.com/Liviocsouza/goodHelp/blob/main/Screenshot_2.png" >
+<img src = "https://github.com/Liviocsouza/goodHelp/blob/main/Screenshot_3.png">
+
 ## Equipe
 
 - Josenildo lopes **(jls2)**

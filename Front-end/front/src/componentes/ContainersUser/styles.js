@@ -59,6 +59,29 @@ const StyledContainerInfo = styled.div`
     box-sizing: border-box;
     border-radius: 20px;
 `
+const StyledContainerInfo2 = styled.input`
+   width: 577px;
+    height: 74px;
+    left: 96px;
+    margin: 20px;
+    position: 100%;
+    margin-left: 100px;
+    margin-rigth: 100px;
+
+    font-family: Electrolize;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 20px 20px;
+
+    color: rgba(0, 0, 0, 0.4);
+
+    background: #FFFFFF;
+    border: 1px solid #C1BBBB;
+    box-sizing: border-box;
+    border-radius: 20px;
+`
 
 const StyledWelcome = styled.ul `
     width: 397px;
@@ -171,4 +194,4 @@ const StyledTermText = styled.ul`
     color: rgba(0, 0, 0, 0.61);
 `
 
-export { StyledSignIn, StyledContainer, StyledButtom,StyledContainerMain, StyledLogin, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledContainerLoginIn, StyledTermBox, StyledTermText, StyledSocialLogin } 
+export { StyledSignIn, StyledContainer,StyledContainerInfo2, StyledButtom,StyledContainerMain, StyledLogin, StyledWelcome, StyledContainerInfo, StyledContainerSignIn, StyledContainerLoginIn, StyledTermBox, StyledTermText, StyledSocialLogin } 

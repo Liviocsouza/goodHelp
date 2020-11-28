@@ -7,6 +7,7 @@ import ConsultaList from './ConsultaList'
 import avatar from './avatar.png'
 import {ButaoBusca, Input} from '../../objects/Input'
 import Titulo from '../../objects/Titulo'
+import DatePicker from 'react-datepicker'
 
 
 class Consulta extends Component {
@@ -47,6 +48,7 @@ class Consulta extends Component {
                         <ButaoBusca top = "190px" left = "575px">Encontrar profissional</ButaoBusca>
 
                     </div> */}
+                     
                     <ConsultaList consulta = {[
                         {nome: "jose", avaliacao: 5, especialidades: "Depressão, ansiedade, ataque de panico", imagem:avatar},
                         {nome: "Carlos", avaliacao: 4, especialidades: "Ansiedade",imagem:avatar},

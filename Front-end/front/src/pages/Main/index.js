@@ -15,8 +15,9 @@ class Main extends Component {
     constructor(props){
         super(props);
         this.state = {
-            buscar:""
+            nome:""
         }
+        console.log(this.state.nome)
         this.buscarBanco = (evento) =>{
             this.setState({nome: evento.target.value})
         };
@@ -29,9 +30,9 @@ class Main extends Component {
                         <img alt = "Logo" src = {logo} width = "174" height = "124"/>
                         <HeaderLista>
                             <li><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Fale conosco</Link></li>
-                            <li><Link to = "/" style = {{textDecoration: 'none',color: "black"}}>Conheça nossos(as) especialistas</Link></li>
+                            <li><Link to = "/Consulta" style = {{textDecoration: 'none',color: "black"}}>Conheça nossos(as) especialistas</Link></li>
                             |
-                            <li><Link to = "/" style = {{textDecoration: 'none',color: "black"}}> Entre</Link></li>
+                            <li><Link to = "/Entrar" style = {{textDecoration: 'none',color: "black"}}> Entre</Link></li>
                             <ButtomHead to = "/cadastro"><Link to = "/Cadastro" style = {{textDecoration: 'none',color: "black"}}>Cadraste-se</Link></ButtomHead>
                         </HeaderLista>
                     </Header>
@@ -52,7 +53,7 @@ class Main extends Component {
                         top = "580px"
                         left = "100px"
                         />
-                        <ButaoBusca top = "581px" left = "575px">Encontrar profissional</ButaoBusca>
+                        <ButaoBusca top = "581px" left = "575px" onChange = {(e)=>{console.log(this.state.nome)}}>Encontrar profissional</ButaoBusca>
                     </Opacidade>                
                 </Banner>
                 </div>

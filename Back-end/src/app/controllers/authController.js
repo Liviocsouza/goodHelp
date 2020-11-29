@@ -12,7 +12,7 @@ const router = express.Router();
 
 function genarateToken(params = {}) {
     return jwt.sign(params , authConfig.secret, {
-        espiresIn: 86400,
+        //espiresIn: 86400,
     });
 
 }
@@ -24,14 +24,26 @@ router.post('/register', async (req, res) => {
         if (await User.findOne({ email }))
             return res.status(400).send({ error: 'User already exists' });
 
-        const user = await User.create(req.body);
+        
+        console.log(req.body);
 
-        user.password = undefined;
+        var cadastro = {
+            nome: req.body.nome,
+            email: req.body.email,
+            password: req.body.password
+        };
 
-        return res.send({ 
-            user,
-            token: genarateToken({ id: user.id }),                    
-        });
+        var data = new User(cadastro);
+        data.save();
+
+        //const user = await User.create(req.body);
+
+        //user.password = undefined;
+
+       // return res.send({ 
+       //     user,
+        //    token: genarateToken({ id: user.id }),                    
+       // });
     }   catch (err) {
         return res.status(400).send({ error: 'Registration failed' });
     }   
@@ -77,6 +89,8 @@ router.post('/forgot_password', async (req, res) => {
                 passwordResetExpires: now,
             }
         });
+
+        console.log(token, now);
         mailer.sendMail({
             to: email,
             from: 'ylsa@cin.ufpe.br',

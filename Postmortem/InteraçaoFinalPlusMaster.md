@@ -29,7 +29,8 @@
 #### O que não foi feito
 |			Ação | Responsável|
 |:---------------------------|:----------:|
-|Em andamento|
+|Realizar testes | Equipe|
+|Integração do fron-end com back-end|Equipe|
 
 
 #### Lições aprendidas

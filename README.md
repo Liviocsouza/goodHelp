@@ -22,6 +22,6 @@ Desenvolver uma plataforma para conectar pessoas que estão passando por alguma 
 
 ## Artefatos
 
-[Mockup da plataforma](https://www.figma.com/proto/nRM7YaXM50WeSb4Jz41oAm/Mockup?node-id=4%3A0&scaling=min-zoom)
-[Back-end](https://goodhelp-backend.herokuapp.com/)
-[Front-end](https://front-end-goodhelp.herokuapp.com/)
+- [Mockup da plataforma](https://www.figma.com/proto/nRM7YaXM50WeSb4Jz41oAm/Mockup?node-id=4%3A0&scaling=min-zoom)
+- [Back-end](https://goodhelp-backend.herokuapp.com/)
+- [Front-end](https://front-end-goodhelp.herokuapp.com/)

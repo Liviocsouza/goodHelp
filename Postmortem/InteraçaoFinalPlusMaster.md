@@ -1,4 +1,4 @@
-### Post-mortem - Iteração 1
+### Post-mortem - Iteração Final
 
 |Início da iteração | Término da iteração|
 |:-----------------:|:------------------:|
@@ -19,19 +19,17 @@
 
 #### O que foi feito
 |								Ação | Responsável |
-|:-------------------------------------------------------------------|:-----------:|
-|Em andamento                                               | equipe|
-
+|:--------------------------------------------|:-----------:|
+|Criação do banco de dados                    | Josenildo|
+|Fazer o deploy do front-end                  | Equipe|
+|Fazer o deploy do back-end                   | Equpe |
+|Finalizar front-end                          |Equipe|
+|Finalizar back-end                           |Equipe|
 
 #### O que não foi feito
 |			Ação | Responsável|
 |:---------------------------|:----------:|
 |Em andamento|
-
-#### Planejamento para a próxima iteração
-|			 Ação | Responsável   |
-|:----------------------------|:-------------:|
-
 
 
 #### Lições aprendidas
@@ -45,6 +43,8 @@
 - Falta de utilização do gerenciador de atividades
 - Não documentar problemas encontrados
 - Problema de versão da do modulo no node(Bastante tempo até achar que o erro era a versão)
-- Dificuldade na utilização do insomnia
-
+- Dificuldade na utilização do insomnia (Falta de experiência)
+- Dificuldade na criação do CRUD (erros de sintaxe acabaram atrasando o processo)
+- Dificuldade para subir back-end no Heroku (Falta de experiência)
+- Dificuldade de integrar back-end e fornt-end
 
